@@ -1,6 +1,6 @@
 Rails.application.routes.draw do
 
-  #root 'places#index'
+  root 'places#index'
   root 'posts#index'
   resources :posts 
   
